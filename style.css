@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 80px;
+  margin-bottom: 48px;
+}
+
+h1 {
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+
+.explain {
+  margin-bottom: 25px;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 60px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 100px;
+  margin-bottom: 40px;
+}
+
+.meets {
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 80px;
+  margin-bottom: 48px;
+}
+
+.testimonial-quotes {
+  grid-column: span 2;
+}
+
+.without {
+  margin: 25px 0;
+}
+
+.quote {
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+.chairs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 80px;
+  margin-bottom: 48px;
+}
+
+.best {
+  margin-bottom: 48px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 25px;
+}
+
+.prices {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  margin-bottom: 48px;
+}
